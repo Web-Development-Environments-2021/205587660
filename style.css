@@ -1,7 +1,86 @@
+body{
+	/* background: rgb(159,168,163);
+	background: linear-gradient(0deg, rgba(159,168,163,1) 0%, rgba(197,213,203,1) 42%, rgba(227,224,207,1) 93%); */
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	/* background-color: #d9e4f5;
+	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
+}
+
+section{
+	/* color: #486d88; */
+	color: #e4ddd6;
+	text-align:center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: larger;
+
+}
+
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+	font-size: 18px;
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+}
+
+#tablecenter
+{
+		top: 50%;
+		left: 50%;
+		transform: translate(0, -50%);
+}
+
 #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background:	 #425664;
+	color:#e4ddd6 ;
+	text-align:center;
+	align-items: center;
+	
+
 }
+
+
+nav li a {
+	color:#e4ddd6 ;
+    text-decoration: none;
+}
+
+nav li a:hover {
+	font-weight: 900;
+    color: #DAA520	;
+}
+
+
+#logo{
+	position: absolute;
+
+    float:left;
+    /* width:100px;
+    height: 30px; */
+	top: 50%;
+	margin-top: -15px; /* half this element's height */
+	margin-left: 15px
+}
+
+
+
+
+#UpButton
+{
+	position: fixed;
+	text-align:center;
+	right: 2%;
+	bottom: 5%;
+}
+
