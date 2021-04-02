@@ -1,15 +1,15 @@
 body{
-	/* background: rgb(159,168,163);
-	background: linear-gradient(0deg, rgba(159,168,163,1) 0%, rgba(197,213,203,1) 42%, rgba(227,224,207,1) 93%); */
-	background-color: #485461;
-	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-	/* background-color: #d9e4f5;
-	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
+	background: #092834;
+	/* background: linear-gradient(0deg, rgba(159,168,163,1) 0%, rgba(197,213,203,1) 42%, rgba(227,224,207,1) 93%); */ */
+	/* background-image: linear-gradient(to right bottom, #233a43, #1d353f, #17313b, #102c38, #092834); */
+	/* /* background-color: #d9e4f5; */
+
+	/* background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */ */
 }
 
 section{
 	/* color: #486d88; */
-	color: #ffe8d6;
+	color:whitesmoke;
 	clear:both;
 	text-align:center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,7 +21,7 @@ section{
 
 section span:before,
 section span:after {
-  background-color: #F4F9FD;
+  background-color: #67AFCB;
   content: "";
   display: inline-block;
   height: 1px;
@@ -40,10 +40,18 @@ section span:after {
   margin-right: -50%;
 }
 
+section p{
+	padding: 10px 20px; 
 
+	color: #E4F1F6;
+}
 div h1{
 	margin-top: 50px;
-	color:#e4ddd6	;
+	color:#E4F1F6	;
+}
+
+div p{
+	color:#347C98;
 }
 
 div h2{
@@ -74,11 +82,8 @@ nav li {
 #menu
 {
 	position: fixed;
-	
-	
 	height: 35px;
-	background:	 #425664;
-	color:#e4ddd6 ;
+	background:	 #35535F;
 	text-align:center;
 	align-items: center;
 	margin: 0 auto; left:0px; right:0px;
@@ -89,13 +94,13 @@ nav li {
 
 
 nav li a {
-	color:#e4ddd6 ;
+	color:black;
     text-decoration: none;
 }
 
 nav li a:hover {
 	/* font-weight: 700; */
-    color: #DAA520	;
+    color: #67AFCB;
 }
 
 
@@ -218,7 +223,7 @@ form {
 		justify-content: center;
   }
   div.gallery {
-	margin: 5px;
+	margin: 5px,5px,5px,5px;
 	border: 1px solid #ccc;
 	float: left;
 	width: 400px;
@@ -230,20 +235,19 @@ form {
   
   div.gallery img {
 	width: 100%;
-	height: auto;
+	height: 80%;
   }
   
   div.desc {
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
   }
 
-  #bpb,#bpb ul, #bpb ul li{
-	  color: #DAA520;
+  #Heb_ans,#Heb_ans ul, #Heb_ans ul li{
 	  text-align: right;
   }
 
-  #bpb{
-	color: #DAA520;
+  #Heb_ans{
 	text-align: right;
 }
+
