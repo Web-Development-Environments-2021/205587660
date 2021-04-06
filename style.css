@@ -251,3 +251,9 @@ form {
 	text-align: right;
 }
 
+#ans_table, #ans_table td {
+	border: 1px solid #67AFCB;
+	border-collapse: collapse;
+	padding: 10px;
+
+}
